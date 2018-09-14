@@ -38,6 +38,8 @@ Battleship is a two player game in which players place ships on a grid and take 
 
 ### Game Play and Layout
 
+The game is played using the command line with the game state displayed to the player in the Tkinter window. 
+
 The display alternates between Player1 and Player2 with splash screens between turns. The idea behind this is that while the splash screen is up, control of the computer can be given to the next player without them seeing the previous player's layout.
 
 The smaller board in the upper left corner of the window is the "guess board" displaying the current player's guesses and successfull hits on their opponent. The larger board in the lower right corner is the "play board" displaying the current player's own ships and where they have been hit.
